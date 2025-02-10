@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed; /* Lo fija en la parte superior */
+    top: 0; /* Alineación con el borde superior de la página */
+    left: 0;
+    right: 0;
+    background-color: #333; /* Fondo oscuro */
+    color: white;
+    padding: 10px 20px; /* Espaciado */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos del navbar */
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0; /* Eliminar márgenes */
+    font-size: 24px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none; /* Quitar el subrayado de los links */
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd; /* Efecto hover para los links */
+  }
+  
